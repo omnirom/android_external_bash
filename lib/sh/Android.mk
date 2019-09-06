@@ -30,8 +30,6 @@ LOCAL_CFLAGS += -Wno-error
 
 LOCAL_MODULE := libsh
 
-LOCAL_MODULE_TAGS := eng
-
 include $(BUILD_STATIC_LIBRARY)
 
 # ========================================================

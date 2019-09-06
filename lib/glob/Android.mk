@@ -22,8 +22,6 @@ LOCAL_CFLAGS += \
 
 LOCAL_CFLAGS += -Wno-error
 
-LOCAL_MODULE_TAGS := eng
-
 LOCAL_MODULE := libglob
 
 include $(BUILD_STATIC_LIBRARY)

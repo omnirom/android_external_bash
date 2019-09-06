@@ -27,8 +27,6 @@ LOCAL_CFLAGS += -Wno-error
 
 LOCAL_MODULE := libhistory
 
-LOCAL_MODULE_TAGS := eng
-
 include $(BUILD_STATIC_LIBRARY)
 
 # ========================================================
@@ -83,8 +81,6 @@ LOCAL_CFLAGS += \
 LOCAL_CFLAGS += -Wno-error -Wno-unused-parameter
 
 LOCAL_MODULE := libreadline
-
-LOCAL_MODULE_TAGS := eng
 
 include $(BUILD_STATIC_LIBRARY)
 
