@@ -42,8 +42,6 @@ LOCAL_CFLAGS += \
 LOCAL_MODULE := bash
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
 
-LOCAL_MODULE_TAGS := eng
-
 include $(BUILD_EXECUTABLE)
 
 # ========================================================
