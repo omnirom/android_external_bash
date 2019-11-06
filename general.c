@@ -1175,13 +1175,3 @@ get_group_array (ngp)
     *ngp = ngroups;
   return group_iarray;
 }
-
-int getdtablesize() {
-  struct rlimit r;
-
-  if (getrlimit(RLIMIT_NOFILE, &r) < 0) {
-    return sysconf(_SC_OPEN_MAX);
-  }
-
-  return r.rlim_cur;
-}
